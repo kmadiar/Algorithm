@@ -56,6 +56,7 @@
 		70EDB44429689CAA00782A37 /* 1834_max_ice_cream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EDB44329689CAA00782A37 /* 1834_max_ice_cream.swift */; };
 		70EDB446296A085D00782A37 /* 134_gas_Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EDB445296A085D00782A37 /* 134_gas_Station.swift */; };
 		70EDB448296CA69D00782A37 /* 144_binary_tree_preorder_traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EDB447296CA69D00782A37 /* 144_binary_tree_preorder_traversal.swift */; };
+		70EDB44B296DF5F000782A37 /* 100_same_tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EDB44A296DF5F000782A37 /* 100_same_tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -121,6 +122,7 @@
 		70EDB44329689CAA00782A37 /* 1834_max_ice_cream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1834_max_ice_cream.swift; sourceTree = "<group>"; };
 		70EDB445296A085D00782A37 /* 134_gas_Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 134_gas_Station.swift; sourceTree = "<group>"; };
 		70EDB447296CA69D00782A37 /* 144_binary_tree_preorder_traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 144_binary_tree_preorder_traversal.swift; sourceTree = "<group>"; };
+		70EDB44A296DF5F000782A37 /* 100_same_tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 100_same_tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				70A06567289B230B00F730D4 /* 69_sqrt.swift */,
 				70B130022947B6DD00B7EE71 /* 70_climbing_stairs.swift */,
 				701075F928A4E1EC000214E4 /* 98_valid_tree.swift */,
+				70EDB44A296DF5F000782A37 /* 100_same_tree.swift */,
 				701075F628A436D3000214E4 /* 108_balanced_binary_search_tree.swift */,
 				70B1300029466B2D00B7EE71 /* 124_binary_tree_maximum_path.swift */,
 				70EDB445296A085D00782A37 /* 134_gas_Station.swift */,
@@ -305,6 +308,7 @@
 				70E9CAB728B3FFB9004DA0D5 /* 14_trie_tree.swift in Sources */,
 				70EDB448296CA69D00782A37 /* 144_binary_tree_preorder_traversal.swift in Sources */,
 				70B130032947B6DD00B7EE71 /* 70_climbing_stairs.swift in Sources */,
+				70EDB44B296DF5F000782A37 /* 100_same_tree.swift in Sources */,
 				70B12FFF29451F5F00B7EE71 /* 977_squares_sorted_array.swift in Sources */,
 				70EDB446296A085D00782A37 /* 134_gas_Station.swift in Sources */,
 				701075FF28AA2627000214E4 /* 13_roman_to_int.swift in Sources */,
