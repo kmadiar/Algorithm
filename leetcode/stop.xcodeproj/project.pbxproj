@@ -51,6 +51,9 @@
 		70E9CAB728B3FFB9004DA0D5 /* 14_trie_tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9CAB628B3FFB9004DA0D5 /* 14_trie_tree.swift */; };
 		70E9CAB928B6CADA004DA0D5 /* 326_Power_of_Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9CAB828B6CADA004DA0D5 /* 326_Power_of_Three.swift */; };
 		70E9CABB28B75370004DA0D5 /* 383_ransom_note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9CABA28B75370004DA0D5 /* 383_ransom_note.swift */; };
+		70EA12B62A4C354400DE837B /* 234_palindrome_linked_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12B52A4C354400DE837B /* 234_palindrome_linked_list.swift */; };
+		70EA12B82A4C3C2200DE837B /* 206_reversed_linked_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12B72A4C3C2200DE837B /* 206_reversed_linked_list.swift */; };
+		70EA12BA2A4C3D7700DE837B /* 141_linked_list_cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12B92A4C3D7700DE837B /* 141_linked_list_cycle.swift */; };
 		70EA7797295CD03E0018C684 /* 1962_remove_stones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7796295CD03E0018C684 /* 1962_remove_stones.swift */; };
 		70EA7799296217800018C684 /* 290_word_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7798296217800018C684 /* 290_word_pattern.swift */; };
 		70EA779B2962FB850018C684 /* 520_detect_capital_letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA779A2962FB850018C684 /* 520_detect_capital_letter.swift */; };
@@ -122,6 +125,9 @@
 		70E9CAB628B3FFB9004DA0D5 /* 14_trie_tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_trie_tree.swift; sourceTree = "<group>"; };
 		70E9CAB828B6CADA004DA0D5 /* 326_Power_of_Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 326_Power_of_Three.swift; sourceTree = "<group>"; };
 		70E9CABA28B75370004DA0D5 /* 383_ransom_note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 383_ransom_note.swift; sourceTree = "<group>"; };
+		70EA12B52A4C354400DE837B /* 234_palindrome_linked_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 234_palindrome_linked_list.swift; sourceTree = "<group>"; };
+		70EA12B72A4C3C2200DE837B /* 206_reversed_linked_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 206_reversed_linked_list.swift; sourceTree = "<group>"; };
+		70EA12B92A4C3D7700DE837B /* 141_linked_list_cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 141_linked_list_cycle.swift; sourceTree = "<group>"; };
 		70EA7796295CD03E0018C684 /* 1962_remove_stones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1962_remove_stones.swift; sourceTree = "<group>"; };
 		70EA7798296217800018C684 /* 290_word_pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 290_word_pattern.swift; sourceTree = "<group>"; };
 		70EA779A2962FB850018C684 /* 520_detect_capital_letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 520_detect_capital_letter.swift; sourceTree = "<group>"; };
@@ -195,10 +201,13 @@
 				701075F628A436D3000214E4 /* 108_balanced_binary_search_tree.swift */,
 				70B1300029466B2D00B7EE71 /* 124_binary_tree_maximum_path.swift */,
 				70EDB445296A085D00782A37 /* 134_gas_Station.swift */,
+				70EA12B92A4C3D7700DE837B /* 141_linked_list_cycle.swift */,
 				70EDB447296CA69D00782A37 /* 144_binary_tree_preorder_traversal.swift */,
 				704460F2294E61D6006CEEC4 /* 150_evaluate_reverse_polish_notation.swift */,
 				704460EC294A7C47006CEEC4 /* 198_house_robber.swift */,
+				70EA12B72A4C3C2200DE837B /* 206_reversed_linked_list.swift */,
 				704460F0294E615B006CEEC4 /* 232_implement_queue_using_stacks.swift */,
+				70EA12B52A4C354400DE837B /* 234_palindrome_linked_list.swift */,
 				701075FC28A70245000214E4 /* 235_Lowest Common Ancestor of a Binary Search Tree.swift */,
 				70AB9D3A293F9E520052162C /* 283_move_zeroes.swift */,
 				70EA7798296217800018C684 /* 290_word_pattern.swift */,
@@ -312,6 +321,7 @@
 				70B130052947CB5800B7EE71 /* 1480_running_sum.swift in Sources */,
 				704460F5294FAAF9006CEEC4 /* 739_daily_temperature.swift in Sources */,
 				70EA77B929659E7E0018C684 /* 2244_minimum_rounds.swift in Sources */,
+				70EA12B62A4C354400DE837B /* 234_palindrome_linked_list.swift in Sources */,
 				70A0654A2874CEFB00F730D4 /* main.swift in Sources */,
 				701075F728A436D3000214E4 /* 108_balanced_binary_search_tree.swift in Sources */,
 				70E9CABB28B75370004DA0D5 /* 383_ransom_note.swift in Sources */,
@@ -337,6 +347,7 @@
 				70E9CAB028AC409A004DA0D5 /* 387_unique_character.swift in Sources */,
 				70A0655D2899DCA800F730D4 /* 21_merge_two_sorted_linked_list.swift in Sources */,
 				704460F3294E61D6006CEEC4 /* 150_evaluate_reverse_polish_notation.swift in Sources */,
+				70EA12BA2A4C3D7700DE837B /* 141_linked_list_cycle.swift in Sources */,
 				704EC232295901DA00AB65E8 /* 2389_longest_sub_with_limited_sum.swift in Sources */,
 				70E9CAB928B6CADA004DA0D5 /* 326_Power_of_Three.swift in Sources */,
 				70A36B4729DCADE8001A6187 /* 1342_number_of_steps.swift in Sources */,
@@ -346,6 +357,7 @@
 				70AB9D37293F866A0052162C /* 328_Odd_Even_Linked_List.swift in Sources */,
 				70B1300129466B2D00B7EE71 /* 124_binary_tree_maximum_path.swift in Sources */,
 				70A36B4529DCAA23001A6187 /* 412_fizz_buzz.swift in Sources */,
+				70EA12B82A4C3C2200DE837B /* 206_reversed_linked_list.swift in Sources */,
 				70A36B4929DCAF2E001A6187 /* 876_middle_of_linked_list.swift in Sources */,
 				70B13009294921FE00B7EE71 /* 931_minimum_failing_path_sum.swift in Sources */,
 				704460F1294E615B006CEEC4 /* 232_implement_queue_using_stacks.swift in Sources */,
@@ -475,6 +487,7 @@
 		70A0654E2874CEFB00F730D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7GV2JGDQ9;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -486,6 +499,7 @@
 		70A0654F2874CEFB00F730D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7GV2JGDQ9;
 				ENABLE_HARDENED_RUNTIME = YES;
