@@ -54,6 +54,7 @@
 		70EA12B62A4C354400DE837B /* 234_palindrome_linked_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12B52A4C354400DE837B /* 234_palindrome_linked_list.swift */; };
 		70EA12B82A4C3C2200DE837B /* 206_reversed_linked_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12B72A4C3C2200DE837B /* 206_reversed_linked_list.swift */; };
 		70EA12BA2A4C3D7700DE837B /* 141_linked_list_cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12B92A4C3D7700DE837B /* 141_linked_list_cycle.swift */; };
+		70EA12BC2A52B86500DE837B /* 217_contains_duplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12BB2A52B86500DE837B /* 217_contains_duplicates.swift */; };
 		70EA7797295CD03E0018C684 /* 1962_remove_stones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7796295CD03E0018C684 /* 1962_remove_stones.swift */; };
 		70EA7799296217800018C684 /* 290_word_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7798296217800018C684 /* 290_word_pattern.swift */; };
 		70EA779B2962FB850018C684 /* 520_detect_capital_letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA779A2962FB850018C684 /* 520_detect_capital_letter.swift */; };
@@ -128,6 +129,7 @@
 		70EA12B52A4C354400DE837B /* 234_palindrome_linked_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 234_palindrome_linked_list.swift; sourceTree = "<group>"; };
 		70EA12B72A4C3C2200DE837B /* 206_reversed_linked_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 206_reversed_linked_list.swift; sourceTree = "<group>"; };
 		70EA12B92A4C3D7700DE837B /* 141_linked_list_cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 141_linked_list_cycle.swift; sourceTree = "<group>"; };
+		70EA12BB2A52B86500DE837B /* 217_contains_duplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217_contains_duplicates.swift; sourceTree = "<group>"; };
 		70EA7796295CD03E0018C684 /* 1962_remove_stones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1962_remove_stones.swift; sourceTree = "<group>"; };
 		70EA7798296217800018C684 /* 290_word_pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 290_word_pattern.swift; sourceTree = "<group>"; };
 		70EA779A2962FB850018C684 /* 520_detect_capital_letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 520_detect_capital_letter.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				704460F2294E61D6006CEEC4 /* 150_evaluate_reverse_polish_notation.swift */,
 				704460EC294A7C47006CEEC4 /* 198_house_robber.swift */,
 				70EA12B72A4C3C2200DE837B /* 206_reversed_linked_list.swift */,
+				70EA12BB2A52B86500DE837B /* 217_contains_duplicates.swift */,
 				704460F0294E615B006CEEC4 /* 232_implement_queue_using_stacks.swift */,
 				70EA12B52A4C354400DE837B /* 234_palindrome_linked_list.swift */,
 				701075FC28A70245000214E4 /* 235_Lowest Common Ancestor of a Binary Search Tree.swift */,
@@ -329,6 +332,7 @@
 				704EC23029564D9C00AB65E8 /* 309_best_time_to_buy_and_sell_stock.swift in Sources */,
 				70EA7799296217800018C684 /* 290_word_pattern.swift in Sources */,
 				70EA779B2962FB850018C684 /* 520_detect_capital_letter.swift in Sources */,
+				70EA12BC2A52B86500DE837B /* 217_contains_duplicates.swift in Sources */,
 				70654A422940B5FA00EF2296 /* 938_range_sum_of_BST.swift in Sources */,
 				70EDB44D2975CF7C00782A37 /* 57_insert_interval.swift in Sources */,
 				70E9CAB728B3FFB9004DA0D5 /* 14_trie_tree.swift in Sources */,
