@@ -56,6 +56,8 @@
 		70EA12BA2A4C3D7700DE837B /* 141_linked_list_cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12B92A4C3D7700DE837B /* 141_linked_list_cycle.swift */; };
 		70EA12BC2A52B86500DE837B /* 217_contains_duplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA12BB2A52B86500DE837B /* 217_contains_duplicates.swift */; };
 		70EA132B2A5334E300DE837B /* 242_anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA132A2A5334E300DE837B /* 242_anagram.swift */; };
+		70EA132D2A55D65700DE837B /* 1_two_sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA132C2A55D65700DE837B /* 1_two_sum.swift */; };
+		70EA132F2A57029A00DE837B /* 49_group_anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA132E2A57029A00DE837B /* 49_group_anagram.swift */; };
 		70EA7797295CD03E0018C684 /* 1962_remove_stones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7796295CD03E0018C684 /* 1962_remove_stones.swift */; };
 		70EA7799296217800018C684 /* 290_word_pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA7798296217800018C684 /* 290_word_pattern.swift */; };
 		70EA779B2962FB850018C684 /* 520_detect_capital_letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA779A2962FB850018C684 /* 520_detect_capital_letter.swift */; };
@@ -132,6 +134,8 @@
 		70EA12B92A4C3D7700DE837B /* 141_linked_list_cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 141_linked_list_cycle.swift; sourceTree = "<group>"; };
 		70EA12BB2A52B86500DE837B /* 217_contains_duplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217_contains_duplicates.swift; sourceTree = "<group>"; };
 		70EA132A2A5334E300DE837B /* 242_anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242_anagram.swift; sourceTree = "<group>"; };
+		70EA132C2A55D65700DE837B /* 1_two_sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_two_sum.swift; sourceTree = "<group>"; };
+		70EA132E2A57029A00DE837B /* 49_group_anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49_group_anagram.swift; sourceTree = "<group>"; };
 		70EA7796295CD03E0018C684 /* 1962_remove_stones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1962_remove_stones.swift; sourceTree = "<group>"; };
 		70EA7798296217800018C684 /* 290_word_pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 290_word_pattern.swift; sourceTree = "<group>"; };
 		70EA779A2962FB850018C684 /* 520_detect_capital_letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 520_detect_capital_letter.swift; sourceTree = "<group>"; };
@@ -192,10 +196,12 @@
 		70EDB449296D887100782A37 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				70EA132C2A55D65700DE837B /* 1_two_sum.swift */,
 				701075FE28AA2627000214E4 /* 13_roman_to_int.swift */,
 				70E9CAB628B3FFB9004DA0D5 /* 14_trie_tree.swift */,
 				70A0655C2899DCA800F730D4 /* 21_merge_two_sorted_linked_list.swift */,
 				704EC233295A292800AB65E8 /* 55_jump_game.swift */,
+				70EA132E2A57029A00DE837B /* 49_group_anagram.swift */,
 				70A36B4229DB7711001A6187 /* 56_merge_interval.swift */,
 				70EDB44C2975CF7C00782A37 /* 57_insert_interval.swift */,
 				70A06567289B230B00F730D4 /* 69_sqrt.swift */,
@@ -211,10 +217,10 @@
 				704460EC294A7C47006CEEC4 /* 198_house_robber.swift */,
 				70EA12B72A4C3C2200DE837B /* 206_reversed_linked_list.swift */,
 				70EA12BB2A52B86500DE837B /* 217_contains_duplicates.swift */,
-				70EA132A2A5334E300DE837B /* 242_anagram.swift */,
 				704460F0294E615B006CEEC4 /* 232_implement_queue_using_stacks.swift */,
 				70EA12B52A4C354400DE837B /* 234_palindrome_linked_list.swift */,
 				701075FC28A70245000214E4 /* 235_Lowest Common Ancestor of a Binary Search Tree.swift */,
+				70EA132A2A5334E300DE837B /* 242_anagram.swift */,
 				70AB9D3A293F9E520052162C /* 283_move_zeroes.swift */,
 				70EA7798296217800018C684 /* 290_word_pattern.swift */,
 				704EC22F29564D9C00AB65E8 /* 309_best_time_to_buy_and_sell_stock.swift */,
@@ -283,7 +289,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					70A065452874CEFB00F730D4 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -321,6 +327,7 @@
 				70EA7797295CD03E0018C684 /* 1962_remove_stones.swift in Sources */,
 				70EA77BF2966F3EE0018C684 /* 452_minimum_number_of_arrows.swift in Sources */,
 				70B12FFD29451CC100B7EE71 /* 448_find_all_numers_disappeared_in_array.swift in Sources */,
+				70EA132F2A57029A00DE837B /* 49_group_anagram.swift in Sources */,
 				70E9CAB528B3BCEB004DA0D5 /* 342_power_of_four.swift in Sources */,
 				70A06568289B230B00F730D4 /* 69_sqrt.swift in Sources */,
 				704EC234295A292800AB65E8 /* 55_jump_game.swift in Sources */,
@@ -368,6 +375,7 @@
 				70EA12B82A4C3C2200DE837B /* 206_reversed_linked_list.swift in Sources */,
 				70A36B4929DCAF2E001A6187 /* 876_middle_of_linked_list.swift in Sources */,
 				70B13009294921FE00B7EE71 /* 931_minimum_failing_path_sum.swift in Sources */,
+				70EA132D2A55D65700DE837B /* 1_two_sum.swift in Sources */,
 				704460F1294E615B006CEEC4 /* 232_implement_queue_using_stacks.swift in Sources */,
 				70AB9D3B293F9E520052162C /* 283_move_zeroes.swift in Sources */,
 				701075FA28A4E1EC000214E4 /* 98_valid_tree.swift in Sources */,
@@ -412,6 +420,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -472,6 +481,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -497,6 +507,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = B7GV2JGDQ9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +520,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = B7GV2JGDQ9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

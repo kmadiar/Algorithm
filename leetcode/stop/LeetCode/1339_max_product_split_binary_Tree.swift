@@ -32,6 +32,7 @@ enum __1339 {
             visit(node.right)
         }
 
+        @discardableResult
         func checkMax(_ node: TreeNode?) -> UInt {
             guard let node = node else { return 0}
             let left = checkMax(node.left)

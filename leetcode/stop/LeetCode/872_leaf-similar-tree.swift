@@ -31,7 +31,7 @@ enum __872 {
         }
 
         func collectLeaf(_ node: TreeNode?) -> [Int] {
-            guard var node = node else { return [] }
+            guard let node = node else { return [] }
 
             let value: [Int] = node.isLeaf ? [node.val] : []
             return collectLeaf(node.left) + value + collectLeaf(node.right)

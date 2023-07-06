@@ -29,6 +29,7 @@ enum __124 {
             return maxSum
         }
 
+        @discardableResult
         func visit(_ node: TreeNode?) -> Int {
             guard let node = node else { return 0 }
             let left = max(visit(node.left), 0)

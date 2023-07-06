@@ -10,7 +10,7 @@ import Foundation
 enum __13 {
     class Solution {
         func romanToInt(_ s: String) -> Int {
-            var arr = Array(s.reversed())
+            let arr = Array(s.reversed())
             let map: [String: Int] = [
                 "I": 1,
                 "IV": 4,

@@ -14,7 +14,7 @@ enum __289 {
 
             for index in 0..<nums.count {
                 if nums[index] != 0 {
-                    var temp = nums[head]
+                    let temp = nums[head]
                     nums[head] = nums[index]
                     nums[index] = temp
                     head += 1

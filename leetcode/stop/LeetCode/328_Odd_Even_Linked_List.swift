@@ -75,10 +75,8 @@ enum __328 {
 
         func druk(_ firstNode: ListNode?) {
             var head = firstNode
-            print(head?.val)
             while let next = head?.next {
                 head = next
-                print(head?.val)
             }
         }
     }

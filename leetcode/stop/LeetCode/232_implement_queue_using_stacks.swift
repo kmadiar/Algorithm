@@ -22,6 +22,7 @@ enum __232 {
             return output.removeLast()
         }
 
+        @discardableResult
         func peek() -> Int {
             if output.isEmpty {
                 while !input.isEmpty {

@@ -12,7 +12,7 @@ enum __309 {
         func maxProfit(_ prices: [Int]) -> Int {
             var sold = 0, hold = Int.min, res = 0
             for index in 0..<prices.count {
-                var previous = sold
+                let previous = sold
                 sold = hold + prices[index]
                 hold = max(res, previous)
             }
