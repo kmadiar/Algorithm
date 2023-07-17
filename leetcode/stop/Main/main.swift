@@ -17,5 +17,14 @@
 //     print(output == result)
 // }
 
+let inputs = [
+    (("ABAB", 2), 4),
+    (("AABABBA", 1), 4),
+ ]
 
+ inputs.forEach { (input, result) in
+     let solution = __424.Solution()
+     let output = solution.characterReplacement(input.0, input.1)
 
+     print(output == result)
+ }
