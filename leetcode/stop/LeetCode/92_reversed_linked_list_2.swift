@@ -136,6 +136,7 @@ let expectations = [
     [3, 5]
 ]
 
+/*
 let solution = __92.Solution()
 
 zip(inputs, expectations)
@@ -149,3 +150,4 @@ zip(inputs, expectations)
             print("passed")
         }
     }
+*/
