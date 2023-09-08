@@ -124,6 +124,113 @@ enum __14 {
     }
 }
 
+
+class TrieTree {
+    class Node {
+        var key: Character?
+        var value: String?
+        var children: [Character: Node] = [:]
+
+        init(key: Character? = nil, value: String? = nil) {
+            self.key = key
+            self.value = value
+        }
+
+        func add(key: Character, value: String? = nil) -> Node {
+            let childNode = children[key]
+            if let childNode = childNode { return childNode }
+
+            let newNode: TrieTree.Node = .init(key: key, value: value)
+
+            children[key] = newNode
+
+            return newNode
+        }
+
+        func allValues() -> [String] {
+            var output: [String] = []
+            let node = self
+            if let value = node.value {
+                output.append(value)
+            }
+
+            return output + allChildrenValues(for: node)
+        }
+
+        func allChildrenValues(for node: Node) -> [String] {
+            var output: [String] = []
+            node.children.forEach { _, childNode in
+                if let token = childNode.value {
+                    output.append(token)
+                }
+                output += allChildrenValues(for: childNode)
+            }
+
+            return output
+        }
+    }
+
+    var root = Node()
+
+    func insert(token: String) {
+        guard !token.isEmpty else { return }
+
+        let characters = Array<Character>(token)
+        var currentNode = root
+        var currentIndex = 0
+
+        while currentIndex < characters.count {
+
+            let character = characters[currentIndex]
+            let childNode = currentNode.add(key: character)
+            currentNode = childNode
+            currentIndex += 1
+        }
+        currentNode.value = token
+    }
+
+    func search(prefix: String) -> [String] {
+        guard !prefix.isEmpty else { return [] }
+
+        let characters = Array<Character>(prefix)
+        var currentNode: TrieTree.Node? = root
+        var currentIndex = 0
+
+        while currentIndex < characters.count {
+            let character = characters[currentIndex]
+            let childNode = currentNode?.children[character]
+
+            currentNode = childNode
+            currentIndex += 1
+        }
+
+        return currentNode?.allValues() ?? []
+    }
+
+    func delete(token: String) {
+        let characters: [Character] = Array(token)
+        var currentIndex = 0
+        var currentNode = root
+        while currentIndex < characters.count {
+            let character = characters[currentIndex]
+            if let childNode = currentNode.children[character] {
+                currentNode = childNode
+            } else {
+                return
+            }
+            currentIndex += 1
+        }
+
+        if currentNode.value != nil {
+            currentNode.value = nil
+        }
+    }
+
+    func allValues() -> [String] {
+        root.allValues()
+    }
+}
+
 //let solution14 = __14.Solution()
 //
 //let strs = ["zalasdsad", "zassla", "zalsd"]
