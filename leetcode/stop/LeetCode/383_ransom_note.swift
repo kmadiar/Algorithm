@@ -10,24 +10,22 @@ import Foundation
 enum __383 {
     class Solution {
         func canConstruct(_ ransomNote: String, _ magazine: String) -> Bool {
-            var ransomDict: [Character: Int] = [:]
-            ransomNote.forEach { character in
-                let count: Int = ransomDict[character] ?? 0
-                ransomDict[character] = count + 1
-            }
 
-            var magasizeDict: [Character: Int] = [:]
+            var magazineDict: [Character: Int] = [:]
 
             magazine.forEach { character in
-                let count: Int = magasizeDict[character] ?? 0
-                magasizeDict[character] = count + 1
+                let count: Int = magazineDict[character] ?? 0
+                magazineDict[character] = count + 1
             }
 
-            for key in ransomDict.keys {
-                guard ransomDict[key] == magasizeDict[key] else {
+            for character in ransomNote {
+                let count: Int = magazineDict[character] ?? 0
+                guard count > 0 else {
                     return false
                 }
+                magazineDict[character] = count - 1
             }
+
 
             return true
         }

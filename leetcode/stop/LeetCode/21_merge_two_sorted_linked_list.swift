@@ -7,16 +7,6 @@
 
 import Foundation
 
-extension __21.ListNode: Comparable {
-    static func < (lhs: __21.ListNode, rhs: __21.ListNode) -> Bool {
-        lhs.val < rhs.val
-    }
-
-    static func == (lhs: __21.ListNode, rhs: __21.ListNode) -> Bool {
-        lhs.val == rhs.val
-    }
-}
-
 enum __21 {
     class ListNode {
          public var val: Int
@@ -28,26 +18,30 @@ enum __21 {
 
     class Solution {
         func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
-            var outputTail, outputHead: ListNode?
+            let fakeHead = ListNode()
+            var outputTail: ListNode? = fakeHead
             var list1 = list1
             var list2 = list2
-            while list1 != nil || list2 != nil {
-                let minimum = [list1, list2].compactMap { $0 }.min()
-                if list1 === minimum {
+
+            while list1 != nil && list2 != nil {
+                if list1!.val < list2!.val {
+                    outputTail?.next = list1
                     list1 = list1?.next
                 } else {
+                    outputTail?.next = list2
                     list2 = list2?.next
                 }
-                if outputHead == nil {
-                    outputHead = minimum
-                    outputTail = minimum
-                } else {
-                    outputTail?.next = minimum
-                    outputTail = outputTail?.next
-                }
+                outputTail = outputTail?.next
             }
 
-            return outputHead
+            if list1 != nil {
+                outputTail?.next = list1
+            }
+            if list2 != nil {
+                outputTail?.next = list2
+            }
+
+            return fakeHead.next
         }
     }
 }
