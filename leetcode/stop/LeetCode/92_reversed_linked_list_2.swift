@@ -121,7 +121,7 @@ enum __92 {
         }
     }
 }
-
+/*
 let inputs = [
     ([1, 2, 3, 4, 5], 2, 4),
     ([5], 1, 1),
@@ -136,7 +136,7 @@ let expectations = [
     [3, 5]
 ]
 
-/*
+
 let solution = __92.Solution()
 
 zip(inputs, expectations)
