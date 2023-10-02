@@ -42,6 +42,17 @@ enum __49 {
 
     class Solution {
         func groupAnagrams(_ strs: [String]) -> [[String]] {
+            var hashMap: [String: [String]] = [:]
+
+            strs.forEach { string in
+                let sortedString = String(string.sorted())
+                hashMap[sortedString] = (hashMap[sortedString] ?? []) + [string]
+            }
+
+            return hashMap.map { $1 }
+        }
+
+        func groupAnagrams1(_ strs: [String]) -> [[String]] {
             let sorted = strs.map { $0.sorted() }
             var dict: [String: [Int]] = [:]
             for (index, str) in sorted.enumerated() {
