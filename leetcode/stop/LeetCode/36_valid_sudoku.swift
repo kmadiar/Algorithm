@@ -88,7 +88,7 @@ enum __36 {
                              key: T,
                              character: Character)
         -> Bool {
-            if var columnSet = dictionary[key] {
+            if let columnSet = dictionary[key] {
                 if columnSet.contains(character) {
                     return true
                 } else {

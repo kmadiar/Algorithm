@@ -84,7 +84,7 @@ enum __20 {
             let stack = Stack()
 
             for character in s {
-                if let peekValue = stack.peek() {
+                if stack.peek() != nil {
                     if isLeft(character: character) {
                         stack.push(value: character)
                     } else {

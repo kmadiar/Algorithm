@@ -57,7 +57,7 @@ enum __25 {
 
             while true {
                 guard let next = getNext(current: groupPrevious, k: k) else { break }
-                var nextGroup = next.next
+                let nextGroup = next.next
 
                 var prev = next.next, current = groupPrevious?.next
 

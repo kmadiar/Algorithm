@@ -47,7 +47,6 @@ enum __2707 {
         func minExtraChar(_ s: String, _ dictionary: [String]) -> Int {
             dictionary.forEach(tree.insert(word:))
 
-            var memo: [Int] = []
             var startIndex = 0
             let characters = Array(s)
             var endIndex = 0

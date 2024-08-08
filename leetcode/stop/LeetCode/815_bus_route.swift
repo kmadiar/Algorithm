@@ -84,7 +84,6 @@ enum __815 {
         func numBusesToDestination(_ routes: [[Int]], _ source: Int, _ target: Int) -> Int {
             var stopsMap: [Int: [Int]] = [:]
             var visitedStops: [Int] = []
-            var visitedRoutes: [Int] = []
 
             for (routeIndex, stops) in routes.enumerated() {
                 for stop in stops {
@@ -96,7 +95,7 @@ enum __815 {
                 }
             }
 
-            var queue: Queue<Node> = .init()
+            let queue: Queue<Node> = .init()
             queue.enqueue(.init(stop: source,
                                 numberOfBusses: 0))
 

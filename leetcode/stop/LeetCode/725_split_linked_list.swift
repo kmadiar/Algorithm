@@ -59,7 +59,7 @@ enum __725 {
 
             while let next = currentNode?.next {
                 nodesCounter += 1
-                currentNode = currentNode?.next
+                currentNode = next
             }
 
             var reminder = nodesCounter < k ? 0 : nodesCounter % k
@@ -80,7 +80,7 @@ enum __725 {
                     reminder -= 1
                 }
 
-                var next = nextNode?.next
+                let next = nextNode?.next
                 nextNode?.next = nil
                 nextNode = next
 
