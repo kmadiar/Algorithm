@@ -50,7 +50,7 @@ enum __2 {
         }
         func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
             var reminder = 0
-            var dummy = ListNode()
+            let dummy = ListNode()
 
             var l1 = l1
             var l2 = l2

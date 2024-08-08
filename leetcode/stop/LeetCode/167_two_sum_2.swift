@@ -50,7 +50,7 @@ enum __167 {
     class Solution {
         func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
             var headIndex = 0
-            var tailIndex = numbers.count - 1
+            let tailIndex = numbers.count - 1
 
             while tailIndex - headIndex > 0 {
                 let firstNumber = numbers[headIndex]

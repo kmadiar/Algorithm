@@ -45,7 +45,7 @@ enum __1339 {
         func maxProduct(_ root: TreeNode?) -> Int {
             visit(root)
 
-            let rootProd = checkMax(root)
+            _ = checkMax(root)
             return Int(maxProd % 1000000007)
         }
     }
