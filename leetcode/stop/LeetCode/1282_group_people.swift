@@ -49,7 +49,7 @@ enum __1282 {
 
             for personId in 0..<groupSizes.count {
                 let groupSize = groupSizes[personId]
-                if let groupOfPersons = map[groupSize] {
+                if var groupOfPersons = map[groupSize] {
                     map[groupSize] = groupOfPersons + [personId]
                 } else {
                     map[groupSize] = [personId]
